@@ -9,6 +9,7 @@ const mainSection = document.querySelector('#main__Section')
   class Showtext {
     constructor() { 
     
+    
   }
     createSpan(Företag1, Företag2, Företag3){
       const referenserLista = [Företag1, Företag2, Företag3];
@@ -22,14 +23,29 @@ const mainSection = document.querySelector('#main__Section')
   }
 
   const Showtexts = new Showtext;
-  const Showtexts2 = new Showtext;
+ 
 
   Referenser.addEventListener('click', () =>{ 
-    Showtexts.createSpan('Byggmax', 'Schenker', 'K-Rauta')
+    mainSection.classList.toggle('Sectioninformation');
+    if (mainSection.classList.contains('Sectioninformation')) {
+      Showtexts.createSpan('Byggmax', 'Schenker', 'K-Rauta');
+    }
+      else {
+        
+      }
+
+    
+    
+    
   });
 
   Tjänster.addEventListener('click', ()=> {
-    Showtexts2.createSpan('Solceller', 'Cevapi', 'Flygspaning')
+    Showtexts.createSpan('Solceller', 'Cevapi', 'Flygspaning')
   });
+
+  Kontakt.addEventListener('click', () => {
+    Showtexts.createSpan('Ida', 'Laila', 'Amna')
+    
+  })
   
 

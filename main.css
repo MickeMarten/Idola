@@ -27,7 +27,8 @@ header ul strong:active {
 }
 
 .Sectioninformation {
-  font-size: 0.5em;
+  display: block;
+  background-color: red;
 }
 
 .hideMesseage {
