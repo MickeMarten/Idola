@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+header .header__h1 {
+  font-size: 2em;
+}
+header .header__div {
+  width: 100%;
+}
+header .header__div .header__img {
+  max-width: 100%;
+  height: auto;
+}
+header ul {
+  display: flex;
+  gap: 50px;
+}
+header ul strong:active {
+  opacity: 0.5;
+}
+
+.Sectioninformation {
+  font-size: 0.5em;
+}
+
+.hideMesseage {
+  display: none;
+}
