@@ -27,12 +27,7 @@ const mainSection = document.querySelector('#main__Section')
 
   Referenser.addEventListener('click', () =>{ 
     mainSection.classList.toggle('Sectioninformation');
-    if (mainSection.classList.contains('Sectioninformation')) {
-      Showtexts.createSpan('Byggmax', 'Schenker', 'K-Rauta');
-    }
-      else {
-        
-      }
+    Showtexts.createSpan('Byggmax', 'Schenker', 'K-Rauta');
 
     
     
@@ -40,10 +35,12 @@ const mainSection = document.querySelector('#main__Section')
   });
 
   Tjänster.addEventListener('click', ()=> {
+    mainSection.classList.toggle('Sectioninformation');
     Showtexts.createSpan('Solceller', 'Cevapi', 'Flygspaning')
   });
 
   Kontakt.addEventListener('click', () => {
+    mainSection.classList.toggle('Sectioninformation');
     Showtexts.createSpan('Ida', 'Laila', 'Amna')
     
   })
