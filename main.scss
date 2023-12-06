@@ -56,20 +56,33 @@ ul {
 }
 
 .bild {
+    margin-top: 13px;
     width: 100%;
     min-height: 300px;
 }
 
 .Haris {
+    margin-top: 10px;
     width: 100%;
-    height: 250px;
+    min-height: 300px;
 }
 
 p {
-    max-width: 500px;
+    max-width: 400px;
 }
 
-div {
-    margin: 10px;
+.section_div1 {
+display: flex;
+flex-flow: column;
+gap: 10px;
+margin-top: 10px;
 }
 
+
+.section_div2 {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    margin-top: 10px;
+
+}
