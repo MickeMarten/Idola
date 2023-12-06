@@ -2,6 +2,7 @@
     box-sizing: border-box;
     font-size: 20px;
     margin: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 // Header
 header { 
@@ -56,9 +57,9 @@ ul {
 }
 
 .bild {
-    margin-top: 13px;
+    margin: 13px 0px 0px 0px;
     width: 100%;
-    min-height: 300px;
+    min-height: 250px;
 }
 
 .Haris {
